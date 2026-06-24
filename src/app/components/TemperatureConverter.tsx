@@ -7,8 +7,7 @@ export default function TemperatureConverter() {
 
   const convertToFahrenheit = () => {
     const c = parseFloat(celsius) || 0;
-    // BUG: Missing the + 32 in the conversion formula
-    const f = c * 9 / 5;
+    const f = c * 9 / 5 + 32;
     return f.toFixed(1);
   };
 
