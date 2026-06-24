@@ -15,7 +15,7 @@ export default function Counter() {
         >
           −
         </button>
-        <span className="text-2xl font-bold text-gray-900 dark:text-gray-100 min-w-[3rem] text-center">
+        <span className="text-2xl font-bold text-green-500 min-w-[3rem] text-center">
           {count}
         </span>
         <button
